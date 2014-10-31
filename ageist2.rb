@@ -1,6 +1,9 @@
 age =  rand(0...110)
+# Pay attention to the product specs here
 puts age
 case age
+
+# There shouldn't be spaces between the number and the range operator '..'
 when 0 .. 2
     puts "baby"
 when 3 .. 6
